@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Pacifico&family=Sacramento&display=swap');
+
+form {
+    border: 2px solid rgba(40, 3, 35, 0.537);
+    padding: 30px;
+    width: 300px;
+    height: auto;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 10px; */
+    /* opacity: 0.8; */ 
+    font-size: 20px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    font-weight: 900;
+    font-family: 'Bad Script', cursive;
+    background-image: url("https://img.freepik.com/premium-vector/cosmetic-background-product-branding-packaging-presentation-geometry-form-square-molding_258787-1337.jpg");; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  h1 {
+    color: #000714;
+    font-weight: bolder;
+
+  }
+  button {
+    font-family: 'Bad Script', cursive; 
+    font-weight: 900;
+    color: rgb(48, 48, 48);
+    padding: 8px 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    /* neumorphism */
+    /* border-radius: 30px; */
+    background: linear-gradient(145deg, #4f0a38, #ad386f55);
+    box-shadow: 4px 4px 8px #c1c1c1, -4px -4px 8px #ffffff;
+    /* margin-left: 15px; */
+    width: 100%;
+  }
+  button:active {
+    background: #7c1c70;
+    box-shadow: inset 2px 2px 5px #813475, inset -2px -2px 5px #ff6af3;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #520340;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #520340;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
