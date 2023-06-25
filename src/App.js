@@ -3,7 +3,9 @@
 // import RenderArray from './ArrayRender.js'
 // import {Form} from './loginForm'
 // import Gallary from "./ImageGallary";
-import FormGallary from './UpdateObjWithSpreadOptaror';
+// import FormGallary from './UpdateObjWithSpreadOptaror';
+import TodoList from "./ToDoList";
+import BucketList from './UpdateArrayInState'
 
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
       <Items name="madhuri " ispacked={false} />
       <Form OnSubmit={formSubmit}/> */}
       {/* <Gallary /> */}
-      <FormGallary />s
+      {/* <FormGallary /> */}
+      <TodoList />
+      <BucketList />
     </div>
    
   );
